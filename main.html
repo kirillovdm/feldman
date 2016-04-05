@@ -136,48 +136,16 @@
         <div class="layout-content">
             <div class="container">
                 <div class="head-block">
-                    <div id="myCarousel" class="carousel slide carousel-top" style="display:none;" data-ride="carousel">
-
-                        <div class="carousel-inner" role="listbox">
-                            <div class="item active">
-                                <div class="container">
-                                    <div class="layout-container">
-                                        <div class="head-content">
-                                            <h1><span>Виртуальный музей коллекции</span><br>Александра Фельдмана</h1>
-                                            <div class="btn btn-white go-to-collection">посмотреть коллекцию
-                                            <i class="t"></i>
-                                            <i class="r"></i>
-                                            <i class="b"></i>
-                                            <i class="l"></i></div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="slide-background-wrap">
-                            <div style="background-image: url('images/head-img_001.jpg');
-                            background-size: cover; background-position: bottom" class="slide-background active"></div>
-                            <div style="background-image: url('images/slider_001.jpg');
-                            background-size: cover; background-position: bottom" class="slide-background"></div>
-                            <div style="background-image: url('images/slider_002.jpg');
-                            background-size: cover; background-position: bottom" class="slide-background"></div>
-                            <div style="background-image: url('images/slider_003.jpg');
-                            background-size: cover; background-position: bottom" class="slide-background"></div>
-                        </div>
-
-                    </div>
-
 
                     <div class="head-content">
-                                            <h1><span>Виртуальный музей коллекции</span><br>Александра Фельдмана</h1>
-                                            <a href="" class="btn btn-white go-to-collection">посмотреть коллекцию
-                                            <i class="t"></i>
-                                            <i class="r"></i>
-                                            <i class="b"></i>
-                                            <i class="l"></i></a>
-                                        </div>
+                        <h1><span class="wow fadeIn">Виртуальный музей коллекции</span><br><div class="wow fadeIn">Александра Фельдмана</div></h1>
+                        <a href="" class="btn btn-white go-to-collection">посмотреть коллекцию
+                            <i class="t"></i>
+                            <i class="r"></i>
+                            <i class="b"></i>
+                            <i class="l"></i></a>
+                        </div>
+
                     <div id="slider" class="sl-slider-wrapper">
 
                     <div class="sl-slider">
@@ -222,7 +190,7 @@
                         <div class="second-name gold">Александр фельдман</div>
                         <h2>О нашем музее</h2>
                         <p>В рамках Feldman Family Museum объединены памятники истории и культуры Запада и Востока, которые Александр Фельдман собирал в течение почти двух десятилетий. Feldman Family Museum включает три коллекции, разделенные по ряду критериев на 14 разделов. В настоящее время в них насчитывается более 2,6 тыс. предметов, отражающих историю развития различных видов европейского и восточного изобразительного, декоративно-прикладного, оружейного искусства на протяжении пяти веков.</p>
-                        <a href="" class="see-more gold">
+                        <a href="" class="see-more gold" data-toggle="modal" data-target=".main-modal">
                             <i>У</i>
                             <i>з</i>
                             <i>н</i>
@@ -385,6 +353,7 @@
 </div>
 
             </div>
+
         </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -415,6 +384,22 @@
             ga('send', 'pageview');
         </script> -->
 
+        <div class="modal fade main-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+            <div class="modal-dialog">
+                <div class="modal-content clearfix">
 
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+                    <div class="second-name gold">Александр фельдман</div>
+                    <h2>Дорогие друзья</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non vel voluptas neque harum esse, repellat.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, temporibus excepturi, earum doloribus reiciendis distinctio!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit qui, recusandae numquam deserunt totam molestiae.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis saepe quos possimus, necessitatibus voluptas rerum!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi quo quasi beatae, saepe sequi! Minima?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore praesentium at, alias, voluptatibus animi sint.</p>
+                    <div class="sign">Искренне ваш, Александр Фельдман</div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
